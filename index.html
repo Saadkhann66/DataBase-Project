@@ -1,0 +1,219 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online shopping site for recreational drugs</title>
+    <link rel="icon" href="\img\logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd61b25b69.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+    <!-----header section-->
+    <header>
+        <div class="header-left">
+            <a href="#">NTnarcotics</a>
+            <div class="header-left-p">
+                <p><a href="#">Explore</a><span><b><i>Plus<i class="fa-solid fa-plus"></i></i></b></span></p>
+            </div>
+        </div>
+        <div class="header-center">
+            <input class="header-center-input" type="text" placeholder="Search for products"><i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <!-----login button , cart-->
+        <div class="login">
+            <a href="#" class="login_btn">login</a>
+            <div class="login_dropdown none">
+                <ul class="login_dropdown_list">
+                    <li class="login_dropdown_li sign_li flex">
+                        <p class="new_login">New Customer?</p>
+                        <a href="#" class="sign_up">Sign up</a>
+                    </li>
+                    <li class="login_drop_li"><i class="fa-solid fa-head-side-virus"></i>My Profile</li>
+                    <li class="login_drop_li"><i class="fa-solid fa-bag-shopping"></i>Order</li>
+                    <li class="login_drop_li"><i class="fa-solid fa-heart-circle-xmark"></i>>Wishlist</li>
+                </ul>
+                    
+            </div>
+        </div> 
+        <span class="cart-lan"> <i class = "shopping_cart" id="cart-icon">Cart</i> </span>
+        <div class = "cart">
+        <h2 class="cart_title">Your Cart</h2>
+        </div>
+
+        <div class = "cart-content">
+          <img src = "" class="">
+          <div class = "detail-box" >
+            <div class="Cart-product-title">Product!</div>
+            <div class ="cart-price">700</div>
+            <input type = "number" value="i" class="cart-quantity">
+          </div> 
+
+
+        </div>
+        <!------more----->
+        <div class="more">
+            <span class="more_lan">More<i class="fa-solid fa-cannabis"></i></span>
+            <div class="more_dropdown none">
+                <div class="pointer more_pointer"></div>
+                <ul class="more_dropdown_list">
+                    <li class="login_drop_li"><i class="more-icon fa-solid fa-bell-concierge"></i>Notification Prefrences</li>
+                    <li class="login_drop_li"><i class="more-icon fa-solid fa-briefcase"></i>Customer Care</li>
+                    <li class="login_drop_li"><i class="more-icon fa-solid fa-download"></i>Download App</li>
+                </ul>
+            </div>
+        </div>
+        <!-----cart----->
+        <span class="cart_lan"><i class="fa-solid fa-cart-shopping">Cart</i></span>
+    </header>
+    <!-----category section------>
+    <section>
+        <div class="category-row">
+            <div class="category-col">
+                <img src="\img\cigs (2).png" alt="">
+                <h5 class="dropbtn">Cigarettes</h5>
+                <div class="dropdown">
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Brands</h3>
+                                <a href="#">Malboro Gold</a>
+                                <a href="#">Gold leaf Classic</a>
+                                <a href="#">Dunhill Int</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Dunhill Switch</a>
+                                <a href="#">Capstan</a>
+                                <a href="#">John Player</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="\img\joint.png" alt="">
+                <h5 class="dropbtn">Weed</h5>
+                <div class="dropdown">
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Types</h3>
+                                <a href="#">Cannabis Sativa</a>
+                                <a href="#">Marijuana</a>
+                                <a href="#">NYC Diesel</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Quebec Gold</a>
+                                <a href="#">Shaman</a>
+                                <a href="#">White Widow</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="\img\acid.png" alt="">
+                <h5 class="dropbtn">LSD</h5>
+                <div class="dropdown">
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">UG</h3>
+                                <a href="#">75ug</a>
+                                <a href="#">100ug</a>
+                                <a href="#">150ug</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">200ug</a>
+                                <a href="#">250ug</a>
+                                <a href="#">300ug</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="\img\shrooms.png" alt="">
+                <h5 class="dropbtn">Shrooms</h5>
+                <div class="dropdown">
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Types</h3>
+                                <a href="#">Magic Mushrooms</a>
+                                <a href="#">Liberty Cap</a>
+                                <a href="#">Wavy Cap</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Psilocybe cubensis </a>
+                                <a href="#">Magic Truffles</a>
+                                <a href="#">Flying Saucer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="\img\output-onlinepngtools (1).png" alt="">
+                <h5 class="dropbtn">Cocaine</h5>
+                <div class="dropdown">
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Types</h3>
+                                <a href="#">Pure</a>
+                                <a href="#">Crack</a>
+                                <a href="#">Synthetic</a>
+                            </div>
+                            <div class="col">
+                                <a href="#">Pink</a>
+                                <a href="#">Black</a>
+                                <a href="#">Fish Scale</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer-category-row" style="display:flex;width:100%;justify-content:space-evenly;position:fixed;bottom:0px ;text-align:center;">
+            <div class="footer" style="display:inline-block;">
+                <img src="\img\pills.png" alt="">
+                <h5 class="dropbtn">pills</h5>
+            </div>
+            <div class="footer1" style="display:inline-block">
+                <img src="\img\vape.png" alt="">
+                <h5 class="dropbtn">Vape</h5>
+            </div>
+            <div class="footer1" style="display:inline-block">
+                <img src="\img\heroin.png" alt="">
+                <h5 class="dropbtn">Heroin</h5>
+            </div>
+            <div class="footer1" style="display:inline-block">
+                <img src="\img\opium.png" alt="">
+                <h5 class="dropbtn">Opium</h5>
+            </div>
+        </div>
+    </section>
+    <!-----Banner----->
+    <section>
+        <div class="banner">
+            <div class="slider">
+                <img src="\img\trippycig.jpg" alt="cig">
+                <img src="\img\tumblr_ozfi5pwEi61rw988no1_r1_1280.png" alt="train">
+                <img src="\img\tumblr_ozfi5pwEi61rw988no2_r1_1280.jpg" alt="girl">
+                <img src="\img\FB_IMG_1568799056042.jpg" alt="madrid">
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
